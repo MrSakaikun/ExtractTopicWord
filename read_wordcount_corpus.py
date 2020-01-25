@@ -6,9 +6,9 @@ import pickle
 def read_wordcount_corpus(corpus,format):
     #ファイル名を指定
     if corpus == 'dialogue':
-        fileName = './outputData/wordcount_corpus_from_dialogue_corpus.'+format
+        fileName = './WordCountCorpus/wordcount_corpus_from_dialogue_corpus.'+format
     elif corpus == 'wikipedia':
-        fileName = './outputData/wordcount_corpus_from_wikipedia_txt.'+format
+        fileName = './WordCountCorpus/wordcount_corpus_from_wikipedia_txt.'+format
     else:
         return None
 
