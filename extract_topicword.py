@@ -50,7 +50,7 @@ class ExtractTopicWord():
         return False
 
     #テキストから話題語を抽出する
-    def getTopicWord(self,text,conditional_noun='all'):
+    def getTopicWord(self,text):
         nounList = []
         mecabFormat = mecab_parse(text)
         #テキスト中の名詞でwordCounterに入っている名詞を対象とする
