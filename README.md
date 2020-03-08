@@ -103,7 +103,7 @@ yuyasakai1002[at]gmail.com
 
 
 ## LICENSE
-Please check [here]()
+Please check [here](https://github.com/MrSakaikun/ExtractTopicWord/blob/master/LICENSE)
 
 MIT License
 
