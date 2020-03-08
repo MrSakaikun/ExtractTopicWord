@@ -9,6 +9,8 @@ def read_wordcount_corpus(corpus,format):
         fileName = './WordCountCorpus/wordcount_corpus_from_dialogue_corpus.'+format
     elif corpus == 'wikipedia':
         fileName = './WordCountCorpus/wordcount_corpus_from_wikipedia_txt.'+format
+    elif corpus == 'for_test':
+        fileName = './word_count.'+format
     else:
         return None
 

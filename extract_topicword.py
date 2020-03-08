@@ -65,6 +65,6 @@ class ExtractTopicWord():
         #出現頻度の低い順に並び替えて話題語を出力
         rank = list(zip(nounList,map(self.wordCounter.get,nounList)))
         rank.sort(key=lambda x:x[1])
-        #return rank[0][0]
+        return rank[0][0]
         #テスト用
-        return rank
+        #return rank
